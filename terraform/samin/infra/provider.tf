@@ -5,5 +5,5 @@
 provider "google" {
   project = "${var.gcp_proj_id}"
   region = "${var.gcp_region}"
-  credentials = "${file(var.gcp_creds_file)}"
+  credentials = "${var.gcp_creds_file}"
 }
