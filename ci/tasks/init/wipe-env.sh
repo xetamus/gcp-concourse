@@ -2,7 +2,7 @@
 set -e
 
 
-if [ $arg_wipe == "wipe" ];
+if [[ $arg_wipe == "wipe" ]];
         then
                 echo "Wiping Environment...."
         else
